@@ -1,0 +1,26 @@
+{
+  "name": "ts-poo-ecommerce",
+  "version": "1.0.0",
+  "description": "Simulação de carrinho de compras de e-commerce utilizando TypeScript e Programação Orientada a Objetos.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "start:prod": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "oop",
+    "poo",
+    "ecommerce",
+    "cart",
+    "nodejs"
+  ],
+  "author": "Isaias Oliveira",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}
